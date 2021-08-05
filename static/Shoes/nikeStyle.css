@@ -1,0 +1,76 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 2rem;
+}
+.shoes{
+    font-family: sans-serif;
+}
+.shoes img{
+    width: 100%;
+}
+
+header ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+header a{
+    text-decoration: none;
+    color:black;
+    transition: 0.3s;
+}
+header a:hover{
+    font-size: 50px;
+    transition: 0.3s;
+}
+.active{
+    color: red;
+}
+ul{
+    /* position: fixed; */
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+header{
+    padding-top: 0;
+    margin: 0;
+}
+.shoes h3{
+    padding: 5px;
+}
+.shoes p{
+    padding: 5px;
+}
+#AirForceV8{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+.image{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:    1rem;
+}
+.image img{
+    width: 100%;
+}
+body{
+    margin-top: 1rem;
+}
